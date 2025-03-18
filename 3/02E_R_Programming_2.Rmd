@@ -248,6 +248,7 @@ for (i in 1:5) {
     mat[i, j] <- abs(i - j)
   }
 }
+mat
 ```
 
 
@@ -262,6 +263,9 @@ Given a list of names, write a for loop that prints a personalized greeting for 
 names_list <- list("Alice", "Bob", "Charlie", "Diana")
 
 # Your code here:
+for (name in names_list) {
+  print(sprintf("Hello %s!", name))
+}
 ```
 
 
